@@ -1111,15 +1111,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\RPAGEN\\.nuget\\packages\\": {}
+    "C:\\Users\\rpagen\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "RPABOT1-BBOPSTART",
       "projectName": "RPABOT1-BBOPSTART",
-      "projectPath": "R:\\RPABOT1-BBOPSTART\\.local",
-      "packagesPath": "C:\\Users\\RPAGEN\\.nuget\\packages\\",
-      "outputPath": "R:\\RPABOT1-BBOPSTART\\.local"
+      "projectPath": "\\\\itgc2w000246\\RPA\\uipath_code\\RPABOT1-BBOPSTART\\.local",
+      "packagesPath": "C:\\Users\\rpagen\\.nuget\\packages\\",
+      "outputPath": "\\\\itgc2w000246\\RPA\\uipath_code\\RPABOT1-BBOPSTART\\.local"
     },
     "frameworks": {
       "net461": {
