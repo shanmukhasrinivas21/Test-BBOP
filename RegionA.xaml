@@ -9,7 +9,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>923,5736</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>923,5373</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>RegionA_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="44">
@@ -61,19 +61,19 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="RegionA" sap:VirtualizedContainerService.HintSize="883,5656" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="RegionA" sap:VirtualizedContainerService.HintSize="883,5293" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uit:TerminalSession ContinueOnError="{x:Null}" ExistingConnection="{x:Null}" OutputConnection="{x:Null}" CloseConnection="True" ConnectionString="{}{'AttachExisting':false,'ConnectionType':1,'EhllBasicMode':false,'EhllDll':null,'EhllEnhanced':true,'EhllFunction':'hllapi','EhllSession':'A','Host':'TN3270E','Mode':1,'Port':23,'Profile':null,'ProviderType':5,'ShowTerminal':true,'TerminalType':0}" DelayMS="1000" DisplayName="Terminal Session" sap:VirtualizedContainerService.HintSize="861,5532" sap2010:WorkflowViewState.IdRef="TerminalSession_1" TimeoutMS="50000">
+    <uit:TerminalSession ContinueOnError="{x:Null}" ExistingConnection="{x:Null}" OutputConnection="{x:Null}" CloseConnection="True" ConnectionString="{}{'AttachExisting':false,'ConnectionType':1,'EhllBasicMode':false,'EhllDll':null,'EhllEnhanced':true,'EhllFunction':'hllapi','EhllSession':'A','Host':'TN3270E','Mode':1,'Port':23,'Profile':null,'ProviderType':5,'ShowTerminal':true,'TerminalType':0}" DelayMS="1000" DisplayName="Terminal Session" sap:VirtualizedContainerService.HintSize="861,5169" sap2010:WorkflowViewState.IdRef="TerminalSession_1" TimeoutMS="50000">
       <uit:TerminalSession.Body>
         <ActivityAction x:TypeArguments="uit:TerminalConnection">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="uit:TerminalConnection" Name="terminalSession" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="847,5433" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="847,5070" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="dateout" />
               <Variable x:TypeArguments="x:String" Name="datein" />
@@ -119,7 +119,7 @@
             </If>
             <uit:TerminalSetField DelayMS="300" DisplayName="&quot;Set Field (qapro11)&quot;" FollowedBy="Password" sap:VirtualizedContainerService.HintSize="825,115" sap2010:WorkflowViewState.IdRef="TerminalSetField_2" Index="1" LabeledBy="==&gt;" Text="[in_user]" TimeoutMS="5000" WaitType="READY" />
             <uit:TerminalSetField DelayMS="300" DisplayName="&quot;Set Field (Walmart9)&quot;" FollowedBy="Transaction" sap:VirtualizedContainerService.HintSize="825,115" sap2010:WorkflowViewState.IdRef="TerminalSetField_3" Index="1" LabeledBy="==&gt;" Text="[new System.Net.NetworkCredential(String.Empty, in_pass).Password.ToString]" TimeoutMS="5000" WaitType="READY" />
-            <uit:TerminalSetField DelayMS="300" DisplayName="&quot;Set Field (BBSA)&quot;" FollowedBy="   QQQQQQ     AAAA                   " sap:VirtualizedContainerService.HintSize="825,115" sap2010:WorkflowViewState.IdRef="TerminalSetField_4" Index="1" LabeledBy="==&gt;" Text="BBSA" TimeoutMS="5000" WaitType="READY" />
+            <uit:TerminalSetField DelayMS="300" DisplayName="&quot;Set Field (BBSA)&quot;" FollowedBy="   QQQQQQ     AAAA                   " sap:VirtualizedContainerService.HintSize="825,115" sap2010:WorkflowViewState.IdRef="TerminalSetField_6" Index="1" LabeledBy="==&gt;" Text="BBSA" TimeoutMS="5000" WaitType="READY" />
             <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="825,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_2" Key="Transmit" TimeoutMS="5000" WaitType="READY" />
             <uit:TerminalGetText DelayMS="300" DisplayName="Get Text" sap:VirtualizedContainerService.HintSize="825,22" sap2010:WorkflowViewState.IdRef="TerminalGetText_5" Text="[gettext]" TimeoutMS="5000" WaitType="READY" />
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="825,91" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot;Login Text &quot;+gettext]" />
@@ -239,7 +239,7 @@
               </If.Else>
             </If>
             <uit:TerminalSendControlKey DelayMS="1000" DisplayName="Send Control Key" sap:VirtualizedContainerService.HintSize="825,61" sap2010:WorkflowViewState.IdRef="TerminalSendControlKey_11" Key="F5" TimeoutMS="5000" WaitType="READY" />
-            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="825,546" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="825,183" sap2010:WorkflowViewState.IdRef="TryCatch_1">
               <TryCatch.Try>
                 <Sequence sap:VirtualizedContainerService.HintSize="553,477" sap2010:WorkflowViewState.IdRef="Sequence_14">
                   <sap:WorkflowViewStateService.ViewState>
@@ -286,10 +286,10 @@
                 </Sequence>
               </TryCatch.Try>
               <TryCatch.Catches>
-                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,384" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
@@ -297,7 +297,7 @@
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                     </ActivityAction.Argument>
-                    <Sequence sap:VirtualizedContainerService.HintSize="336,315" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                    <Sequence sap:VirtualizedContainerService.HintSize="336,314" sap2010:WorkflowViewState.IdRef="Sequence_15">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>

@@ -50,7 +50,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" TimeoutMS="{x:Null}" Body="BBOP start has been performed on both JOCSWRPA and JOCSWRPB region and the SYSD date is set to 10/15/19." DisplayName="Send SMTP Mail Message" EnableSSL="True" From="RPABOT1@VFC.COM" sap:VirtualizedContainerService.HintSize="314,145" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="RPABOT1 BBOP" Port="25" SecureConnection="Auto" Server="itxf2aln09.vfc.com" Subject="BBOP start has been performed" To="vfc-ordrmgmt@vfc.com; vfc-rpa@vfc.com">
+    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" Email="{x:Null}" MailMessage="{x:Null}" Password="{x:Null}" TimeoutMS="{x:Null}" Body="BBOP start has been performed on both JOCSWRPA and JOCSWRPB region and the SYSD date is set to 11/05/19." DisplayName="Send SMTP Mail Message" EnableSSL="True" From="RPABOT1@VFC.COM" sap:VirtualizedContainerService.HintSize="314,145" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Name="RPABOT1 BBOP" Port="25" SecureConnection="Auto" Server="itxf2aln09.vfc.com" Subject="BBOP start has been performed" To="vfc-ordrmgmt@vfc.com; vfc-rpa@vfc.com">
       <ui:SendMail.Files>
         <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
       </ui:SendMail.Files>
